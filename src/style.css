@@ -1,0 +1,134 @@
+/* set the universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-block: 44px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.my-display-pic {
+  margin: 0;
+  border-radius: 10px 10px 0px 0px;
+  width: 317px;
+  height: 317px;
+  display: flex;
+  /* float: left; */
+}
+
+.main {
+  margin: 0;
+  background-color: #F5F5F5;
+  width: 317px;
+}
+
+.name {
+  margin: 0;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #2B283A;
+}
+
+.job-title {
+  margin-top: 6.2px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F47D27;
+}
+
+.website {
+  margin: 8.8px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15px;
+  text-align: center;
+  color: #4A4E74;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons { 
+  margin-inline: 18px;
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-button {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.email-button {
+  background-color: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  color: #374151;
+}
+
+.linkedin-button {
+  background-color: #297FE5;
+  color: #FFFFFF;
+}
+
+.main-text {
+  margin: 8px 35px 0px 35px;
+  padding-bottom: 30px;
+  width: 247px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #4A4E74;
+}
+
+.main-text > h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2B283A;
+}
+
+.main-text > p{
+  margin: 0;
+  padding: 5px 0px 20px 0px;
+}
+
+.social-icons {
+  width: 317px;
+  height: 64px;
+  background: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+  padding: 19.5px 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
