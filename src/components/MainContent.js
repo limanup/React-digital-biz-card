@@ -8,7 +8,7 @@ export default function MainContent () {
         <div className='main'>
             <h1 className='name'>Liman Shen</h1>
             <p className='job-title'>Full Stack Software Engineer</p>
-            <a href='https://limanshen.000webhostapp.com/' className='website'>
+            <a href='https://liman-shen-digital-biz-card.herokuapp.com/' className='website'>
                 limanshen.website
             </a>
             <div className='buttons'>
